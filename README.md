@@ -1,4 +1,5 @@
-# Project Overview: Credit Card User Profiling & Transaction Analysis Dashboard
+# Project Overview: 
+## Credit Card User Profiling & Transaction Analysis Dashboard
 
 This project builds an interactive Power BI dashboard on top of three core datasets: User Data, Card Data, and Transaction Data. Using SQL modeling and Power BI visualization, it provides insights into user profiles, card usage, transaction patterns, and credit risk evaluation.
 
@@ -26,12 +27,15 @@ Safe: Credit Utilization ≤ 0.8
 Risky: Credit Utilization > 0.8
 
 ## Data_Analytics_SQL-PBI-Python/
+'''
 ├── README.md # Project documentation (this file)
 ├── {Financial_transaction_analysis.sql} # SQL queries for data extraction & transformation
 └── dashboards/ # Directory for visualization exports
-├── Overview.png # Overview Dashboard
-├── Clients Analysis.png # Customer Analysis Dashboard
-└── Risk Analysis.png # Transaction Trends Dashboard
+    ├── Overview.png # Overview Dashboard
+    ├── Clients Analysis.png # Customer Analysis Dashboard
+    └── Risk Analysis.png # Transaction Trends Dashboard
+'''
+'''
 
 ## Tech Stack & Tools
 - **SQL**: Data extraction, transformation, and loading (ETL)
