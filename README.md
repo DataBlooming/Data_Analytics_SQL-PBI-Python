@@ -27,14 +27,15 @@ Safe: Credit Utilization ≤ 0.8
 Risky: Credit Utilization > 0.8
 
 ## Data_Analytics_SQL-PBI-Python/
-'''
-├── README.md # Project documentation (this file)
-├── {Financial_transaction_analysis.sql} # SQL queries for data extraction & transformation
-└── dashboards/ # Directory for visualization exports
-    ├── Overview.png # Overview Dashboard
-    ├── Clients Analysis.png # Customer Analysis Dashboard
-    └── Risk Analysis.png # Transaction Trends Dashboard
-'''
+```plaintext
+Data_Analytics_SQL-PBI-Python/
+├── README.md
+├── Financial_transaction_analysis.sql
+└── dashboards/
+    ├── Overview.png
+    ├── Clients Analysis.png
+    └── Risk Analysis.png
+```
 
 ## Tech Stack & Tools
 - **SQL**: Data extraction, transformation, and loading (ETL)
