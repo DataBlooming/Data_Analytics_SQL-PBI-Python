@@ -35,7 +35,6 @@ Risky: Credit Utilization > 0.8
     ├── Clients Analysis.png # Customer Analysis Dashboard
     └── Risk Analysis.png # Transaction Trends Dashboard
 '''
-'''
 
 ## Tech Stack & Tools
 - **SQL**: Data extraction, transformation, and loading (ETL)
