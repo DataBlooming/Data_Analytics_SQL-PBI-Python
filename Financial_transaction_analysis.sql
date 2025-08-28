@@ -1,6 +1,6 @@
 CREATE DATABASE "Financial_Transaction";
 
--- The dataset is aviliable on Kaggel:
+-- The datasets are aviliable on Kaggel:
 -- https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets?resource=download&select=users_data.csv
 
 -- There are three datasets: cards dataset, users dataset, and transaction dataset.
@@ -167,5 +167,6 @@ LEFT JOIN dbo.Transaction_data10000 t
        ON c.id = t.card_id
 GROUP BY c.client_id, c.id, c.credit_limit
 ORDER BY utilization_ratio DESC;
+
 
 
